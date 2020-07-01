@@ -1,0 +1,8 @@
+ion-header { 
+    background-color: black;
+    text-align: center;
+}
+
+ion-header .headerImage{ 
+    max-height: 33vh;
+}

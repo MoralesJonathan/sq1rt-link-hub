@@ -1,0 +1,7 @@
+{
+  "name": "sq1rt-link-hub",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

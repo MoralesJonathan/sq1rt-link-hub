@@ -1,0 +1,13 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "sq1rt-link-hub",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
