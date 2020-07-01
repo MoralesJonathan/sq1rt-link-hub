@@ -29,7 +29,7 @@ const Home: React.FC = () => {
   return (
     <IonPage id="home-page">
       <IonHeader>
-        <img src="assets/logo.jpg" className="headerImage" alt="logo"></img>
+        <img src={process.env.PUBLIC_URL + "/assets/logo.jpg"} className="headerImage" alt="logo"></img>
       </IonHeader>
       <IonContent fullscreen>
         <IonList>

@@ -22,13 +22,12 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
-
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route exact path="/" component={Home} />
-        <Redirect from="/*" to="/" />
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+        <Redirect from={process.env.PUBLIC_URL + '/*'} to={process.env.PUBLIC_URL + '/'} />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>

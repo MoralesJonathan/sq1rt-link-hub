@@ -11,7 +11,7 @@ export interface Link {
     {
       title: 'Revolution 93.5 Mix 1',
       subTitle: 'Aired: 06/30/20',
-      icon: 'assets/soundcloud.png',
+      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/rev-mix',
       cta: 'Play',
       id: 0
@@ -19,7 +19,7 @@ export interface Link {
     {
       title: 'Revolution 93.5 Mix 2',
       subTitle: 'Aired: 05/09/20',
-      icon: 'assets/soundcloud.png',
+      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/rev-mix-2',
       cta: 'Play',
       id: 1
