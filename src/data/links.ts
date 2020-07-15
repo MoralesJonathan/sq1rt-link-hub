@@ -10,7 +10,7 @@ export interface Link {
   const links: Link[] = [
     {
       title: 'Revolution 93.5 Mix 1',
-      subTitle: 'Aired: 06/30/20',
+      subTitle: 'Aired: 06/09/20',
       icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/rev-mix',
       cta: 'Play',
@@ -18,11 +18,19 @@ export interface Link {
     },
     {
       title: 'Revolution 93.5 Mix 2',
-      subTitle: 'Aired: 05/09/20',
+      subTitle: 'Aired: 06/30/20',
       icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/rev-mix-2',
       cta: 'Play',
       id: 1
+    },
+    {
+      title: 'Revolution 93.5 Mix 3',
+      subTitle: 'Aired: 07/14/20',
+      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
+      url: 'https://sq1rt.me/rev-mix-3',
+      cta: 'Play',
+      id: 2
     }
   ];
   
