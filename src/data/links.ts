@@ -31,6 +31,14 @@ export interface Link {
       url: 'https://sq1rt.me/rev-mix-3',
       cta: 'Play',
       id: 2
+    },
+    {
+      title: 'Dirtybird DJ Contest',
+      subTitle: 'Vote on OnNow.TV for SQ!RT',
+      icon: process.env.PUBLIC_URL + '/assets/onNowTv.png',
+      url: 'https://www.onnow.tv/competition/dirtybird-couchout-2020/',
+      cta: 'VOTE',
+      id: 3
     }
   ];
   
