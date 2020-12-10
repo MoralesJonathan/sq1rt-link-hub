@@ -9,11 +9,11 @@ export interface Link {
   
   const links: Link[] = [
     {
-      title: 'Dirtybird DJ Contest',
-      subTitle: 'Vote on OnNow.TV for SQ!RT',
-      icon: process.env.PUBLIC_URL + '/assets/onNowTv.png',
-      url: 'https://sq1rt.me/dirtybirdcontest',
-      cta: 'VOTE',
+      title: 'Twitch Channel',
+      subTitle: 'See me streaming live!',
+      icon: process.env.PUBLIC_URL + '/assets/twitch.jpg',
+      url: 'https://sq1rt.me/twitch',
+      cta: 'Visit',
       id: 0
     },
     {
