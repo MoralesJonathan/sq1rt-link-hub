@@ -17,12 +17,20 @@ export interface Link {
       id: 0
     },
     {
+      title: '2021 Mix',
+      subTitle: 'Released: 02/11/21',
+      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
+      url: 'https://sq1rt.me/2021-mix',
+      cta: 'Play',
+      id: 1
+    },
+    {
       title: 'Revolution 93.5 Mix 3',
       subTitle: 'Aired: 07/14/20',
       icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/rev-mix-3',
       cta: 'Play',
-      id: 1
+      id: 2
     },
     {
       title: 'Revolution 93.5 Mix 2',
@@ -30,7 +38,7 @@ export interface Link {
       icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/rev-mix-2',
       cta: 'Play',
-      id: 2
+      id: 3
     },
     {
       title: 'Revolution 93.5 Mix 1',
@@ -38,7 +46,7 @@ export interface Link {
       icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/rev-mix',
       cta: 'Play',
-      id: 3
+      id: 4
     }
   ];
   
