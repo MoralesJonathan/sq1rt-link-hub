@@ -1,5 +1,5 @@
 import React from 'react';
-import { Redirect, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
@@ -26,8 +26,7 @@ const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
-        <Redirect from={process.env.PUBLIC_URL + '/*'} to={process.env.PUBLIC_URL + '/'} />
+        <Route path={process.env.PUBLIC_URL + '/'} component={Home} />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
