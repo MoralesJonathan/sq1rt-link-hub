@@ -1,7 +1,7 @@
 import LinkListItem from '../components/LinkListItem';
 import React, { useState } from 'react';
 import { Link, getLinks } from '../data/links';
-import { logoInstagram, logoTwitch, mailOutline, logoSoundcloud } from 'ionicons/icons';
+import { logoInstagram, logoTwitch, mailOutline, logoSoundcloud, logoDiscord } from 'ionicons/icons';
 import {
   IonContent,
   IonHeader,
@@ -42,6 +42,9 @@ const Home: React.FC = () => {
           <IonButtons slot="end">
             <IonButton href="https://sq1rt.me/instagram" >
               <IonIcon icon={logoInstagram} />
+            </IonButton>
+            <IonButton href="https://discord.gg/xyw2ZFjfyF" >
+              <IonIcon icon={logoDiscord} />
             </IonButton>
             <IonButton href="https://sq1rt.me/twitch" >
               <IonIcon icon={logoTwitch} />
