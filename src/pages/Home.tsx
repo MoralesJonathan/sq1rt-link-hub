@@ -38,7 +38,7 @@ const Home: React.FC = () => {
       </IonContent>
       <IonFooter mode="md">
         <IonToolbar>
-          <IonTitle slot="start">©2020 SQ!RT. All rights reserve.</IonTitle>
+          <IonTitle slot="start">©2021 SQ!RT. All rights reserve.</IonTitle>
           <IonButtons slot="end">
             <IonButton href="https://sq1rt.me/instagram" >
               <IonIcon icon={logoInstagram} />
