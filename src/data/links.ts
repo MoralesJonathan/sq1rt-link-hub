@@ -9,11 +9,11 @@ export interface Link {
   
   const links: Link[] = [
     {
-      title: 'Twitch Channel',
-      subTitle: 'See me streaming live!',
-      icon: process.env.PUBLIC_URL + '/assets/twitch.jpg',
-      url: 'https://sq1rt.me/twitch',
-      cta: 'Visit',
+      title: 'On my mind x Heads will roll Mashup',
+      subTitle: 'On my mind x heads will roll SQ!RT mashup',
+      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
+      url: 'https://sq1rt.me/on-my-mind-heads-will-roll-mashup',
+      cta: 'Play',
       id: 0
     },
     {
