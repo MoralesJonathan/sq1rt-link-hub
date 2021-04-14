@@ -9,12 +9,20 @@ export interface Link {
   
   const links: Link[] = [
     {
+      title: 'Lemonade X Show me love SQ!RT Mashup',
+      subTitle: 'Lemonade X Show me love SQ!RT Mashup',
+      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
+      url: 'https://sq1rt.me/lemonade-show-me-love-mashup',
+      cta: 'Play',
+      id: 0
+    },
+    {
       title: 'Jumpin X No Mercy X Losing it X Anything Mashup',
       subTitle: 'Jumpin X No Mercy X Losing it X Anything SQ!RT Mashup',
       icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/jumpin-mashup',
       cta: 'Play',
-      id: 0
+      id: 1
     },
     {
       title: 'On my mind x Heads will roll Mashup',
@@ -22,7 +30,7 @@ export interface Link {
       icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/on-my-mind-heads-will-roll-mashup',
       cta: 'Play',
-      id: 1
+      id: 2
     },
     {
       title: '2021 Mix',
@@ -30,7 +38,7 @@ export interface Link {
       icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/2021-mix',
       cta: 'Play',
-      id: 2
+      id: 3
     },
     {
       title: 'Revolution 93.5 Mix 3',
@@ -38,7 +46,7 @@ export interface Link {
       icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/rev-mix-3',
       cta: 'Play',
-      id: 3
+      id: 4
     },
     {
       title: 'Revolution 93.5 Mix 2',
@@ -46,7 +54,7 @@ export interface Link {
       icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/rev-mix-2',
       cta: 'Play',
-      id: 4
+      id: 5
     },
     {
       title: 'Revolution 93.5 Mix 1',
@@ -54,7 +62,7 @@ export interface Link {
       icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/rev-mix',
       cta: 'Play',
-      id: 5
+      id: 6
     }
   ];
   
