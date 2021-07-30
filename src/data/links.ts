@@ -9,11 +9,11 @@ export interface Link {
   
   const links: Link[] = [
     {
-      title: 'FEEL Presave',
-      subTitle: 'Presave my newest single on Spotify!',
+      title: 'FEEL',
+      subTitle: 'Listen my newest single on Spotify and Apple Music!',
       icon: process.env.PUBLIC_URL + '/assets/feel.png',
       url: 'gate.fm/wKJC2Fm',
-      cta: 'Presave',
+      cta: 'Listen',
       id: 0
     },
     {
