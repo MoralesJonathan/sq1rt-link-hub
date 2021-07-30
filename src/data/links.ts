@@ -10,10 +10,10 @@ export interface Link {
   const links: Link[] = [
     {
       title: 'FEEL',
-      subTitle: 'Listen my newest single on Spotify and Apple Music!',
+      subTitle: 'Stream my newest single "FEEL"!',
       icon: process.env.PUBLIC_URL + '/assets/feel.png',
-      url: 'gate.fm/wKJC2Fm',
-      cta: 'Listen',
+      url: 'https://gate.fm/TkQKlwA',
+      cta: 'Listen now',
       id: 0
     },
     {
