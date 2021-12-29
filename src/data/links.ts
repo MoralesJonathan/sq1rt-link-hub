@@ -9,12 +9,28 @@ export interface Link {
   
   const links: Link[] = [
     {
+      title: 'GET NASTY',
+      subTitle: 'Stream my latest single "GET NASTY"!',
+      icon: process.env.PUBLIC_URL + '/assets/GetNasty.png',
+      url: 'https://gate.fm/W9TcTC',
+      cta: 'STREAM',
+      id: 0
+    },
+    {
+      title: 'Discovery project mix',
+      subTitle: 'Listen to my submission for the discovery project contest.',
+      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
+      url: 'https://sq1rt.me/DiscoveryProjectMix',
+      cta: 'Listen now',
+      id: 1
+    },
+    {
       title: 'FEEL',
       subTitle: 'Stream my newest single "FEEL"!',
       icon: process.env.PUBLIC_URL + '/assets/feel.png',
       url: 'https://gate.fm/TkQKlwA',
-      cta: 'Listen now',
-      id: 0
+      cta: 'STREAM',
+      id: 2
     },
     {
       title: 'SQ!RT Mashup Pack Vol 1',
@@ -22,22 +38,6 @@ export interface Link {
       icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/mashups-vol-1',
       cta: 'Download',
-      id: 1
-    },
-    {
-      title: '2021 Mix',
-      subTitle: 'Released: 02/11/21',
-      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
-      url: 'https://sq1rt.me/2021-mix',
-      cta: 'Play',
-      id: 2
-    },
-    {
-      title: 'Revolution 93.5 Mix 3',
-      subTitle: 'Aired: 07/14/20',
-      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
-      url: 'https://sq1rt.me/rev-mix-3',
-      cta: 'Play',
       id: 3
     },
   ];
