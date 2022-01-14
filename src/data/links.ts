@@ -9,20 +9,20 @@ export interface Link {
   
   const links: Link[] = [
     {
+      title: 'Fire Burning (2022 Edit)',
+      subTitle: 'Listen to my edit of "Fire Burning".',
+      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
+      url: 'https://sq1rt.me/fire-burning',
+      cta: 'Listen now',
+      id: 1
+    },
+    {
       title: 'GET NASTY',
       subTitle: 'Stream my latest single "GET NASTY"!',
       icon: process.env.PUBLIC_URL + '/assets/GetNasty.png',
       url: 'https://gate.fm/W9TcTC',
       cta: 'STREAM',
       id: 0
-    },
-    {
-      title: 'Discovery project mix',
-      subTitle: 'Listen to my submission for the discovery project contest.',
-      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
-      url: 'https://sq1rt.me/DiscoveryProjectMix',
-      cta: 'Listen now',
-      id: 1
     },
     {
       title: 'FEEL',
