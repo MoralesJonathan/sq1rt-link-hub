@@ -9,6 +9,22 @@ export interface Link {
   
   const links: Link[] = [
     {
+      title: 'Moscow Mule EDIT',
+      subTitle: 'Listen to my edit of Bad Bunny\s new song',
+      icon: process.env.PUBLIC_URL + '/assets/moscowMule.png',
+      url: 'https://sq1rt.me/moscow-mule',
+      cta: 'Listen now',
+      id: 0
+    },
+    {
+      title: 'SQ!RT Mashup Pack Vol 1',
+      subTitle: 'Free Volume 1 Mashup Pack',
+      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
+      url: 'https://sq1rt.me/mashups-vol-1',
+      cta: 'Download',
+      id: 3
+    },
+    {
       title: 'Fire Burning (2022 Edit)',
       subTitle: 'Listen to my edit of "Fire Burning".',
       icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
@@ -22,24 +38,8 @@ export interface Link {
       icon: process.env.PUBLIC_URL + '/assets/GetNasty.png',
       url: 'https://gate.fm/W9TcTC',
       cta: 'STREAM',
-      id: 0
-    },
-    {
-      title: 'FEEL',
-      subTitle: 'Stream my newest single "FEEL"!',
-      icon: process.env.PUBLIC_URL + '/assets/feel.png',
-      url: 'https://gate.fm/TkQKlwA',
-      cta: 'STREAM',
       id: 2
-    },
-    {
-      title: 'SQ!RT Mashup Pack Vol 1',
-      subTitle: 'Free Volume 1 Mashup Pack',
-      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
-      url: 'https://sq1rt.me/mashups-vol-1',
-      cta: 'Download',
-      id: 3
-    },
+    }
   ];
   
   export const getLinks = () => links;
