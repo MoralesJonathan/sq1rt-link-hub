@@ -9,12 +9,20 @@ export interface Link {
   
   const links: Link[] = [
     {
+      title: 'Slow down Amsterdam',
+      subTitle: 'Listen to my latest mashup".',
+      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
+      url: 'https://sq1rt.me/slow-down-amsterdam',
+      cta: 'Listen now',
+      id: 0
+    },
+    {
       title: 'Moscow Mule EDIT',
       subTitle: 'Listen to my edit of Bad Bunny\s new song',
       icon: process.env.PUBLIC_URL + '/assets/moscowMule.png',
       url: 'https://sq1rt.me/moscow-mule',
       cta: 'Listen now',
-      id: 0
+      id: 1
     },
     {
       title: 'SQ!RT Mashup Pack Vol 1',
@@ -22,15 +30,7 @@ export interface Link {
       icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
       url: 'https://sq1rt.me/mashups-vol-1',
       cta: 'Download',
-      id: 3
-    },
-    {
-      title: 'Fire Burning (2022 Edit)',
-      subTitle: 'Listen to my edit of "Fire Burning".',
-      icon: process.env.PUBLIC_URL + '/assets/soundcloud.png',
-      url: 'https://sq1rt.me/fire-burning',
-      cta: 'Listen now',
-      id: 1
+      id: 2
     },
     {
       title: 'GET NASTY',
@@ -38,7 +38,7 @@ export interface Link {
       icon: process.env.PUBLIC_URL + '/assets/GetNasty.png',
       url: 'https://gate.fm/W9TcTC',
       cta: 'STREAM',
-      id: 2
+      id: 3
     }
   ];
   
