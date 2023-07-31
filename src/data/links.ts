@@ -8,13 +8,21 @@ export interface Link {
   }
   
   const links: Link[] = [
+      {
+      title: 'Zombie (Remix)',
+      subTitle: 'Listen to my latest remix - "Zombie"',
+      icon: process.env.PUBLIC_URL + '/assets/zombie.jpg',
+      url: 'https://sq1rt.me/zombie-remix',
+      cta: 'Listen now',
+      id: 0
+    },
     {
-      title: 'Here we go Chico remix',
-      subTitle: 'Stream my latest remix - "Here we go Chico"',
+      title: 'Here we go Chico (Remix)',
+      subTitle: 'Stream my remix - "Here we go Chico"',
       icon: process.env.PUBLIC_URL + '/assets/herewegochico.jpg',
       url: 'https://sq1rt.me/here-we-go-chico-remix',
       cta: 'STREAM',
-      id: 0
+      id: 1
     },
     {
       title: 'Alone again (Remix)',
@@ -22,7 +30,7 @@ export interface Link {
       icon: process.env.PUBLIC_URL + '/assets/aloneAgain.jpg',
       url: 'https://sq1rt.me/alone-again-yt',
       cta: 'LISTEN',
-      id: 1
+      id: 2
     },
     {
       title: 'Front To Back',
@@ -30,21 +38,13 @@ export interface Link {
       icon: process.env.PUBLIC_URL + '/assets/FrontToBack.jpeg',
       url: 'https://sq1rt.me/front-to-back',
       cta: 'LISTEN',
-      id: 2
-    },
-    {
-      title: 'Gimme some keys remix',
-      subTitle: 'My remix of Matroda\'s "Gimme some keys"',
-      icon: process.env.PUBLIC_URL + '/assets/gimmeKeys.jpg',
-      url: 'https://sq1rt.me/gimme-some-keys',
-      cta: 'Listen now',
       id: 3
     },
     {
-      title: 'Slow down Amsterdam',
-      subTitle: 'Listen to my latest mashup',
-      icon: process.env.PUBLIC_URL + '/assets/amsterdamnDrugs.jpg',
-      url: 'https://sq1rt.me/slow-down-amsterdam',
+      title: 'Gimme some keys (Remix)',
+      subTitle: 'My remix of Matroda\'s "Gimme some keys"',
+      icon: process.env.PUBLIC_URL + '/assets/gimmeKeys.jpg',
+      url: 'https://sq1rt.me/gimme-some-keys',
       cta: 'Listen now',
       id: 4
     },
